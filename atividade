@@ -1,0 +1,15 @@
+#include<iostream>
+#include<string>
+using namespace std;
+
+int main()
+{
+	string mystr;
+	cout<< "Qual e o seu nome?\n";
+	getline (cin, mystr);
+	cout<<" oi "<<mystr <<".\n";
+	cout<<" Qual é o seu time favorito?\n";
+	getline (cin, mystr);
+	cout<< "Eu gosto do "<< mystr <<" tambem!\n";
+	return 0; 
+}
