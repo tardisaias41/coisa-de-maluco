@@ -1,0 +1,10 @@
+#include<stdio.h>
+#include<conio.h>
+ main()
+ {
+ 	char f;
+ 	printf("Digite um caracter: ");
+ 	f = getche();
+ 	printf("\n A tecla pressionada foi: %c", f);
+ 	return 0;
+ }
