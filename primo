@@ -1,0 +1,16 @@
+#include <iostream.h>
+main()
+{int n,i,qte=0;
+ cout<<"Para saber se o numero e primo\n";
+ cout<<"\nDigite o numero\n\n";
+ cin>>n;
+  for(i=1;i<=n;i++)
+   if(n%i==0)
+    cout<<i<<"," && qte++;
+    cout<<"\n\na quantidade e= "<<qte;
+   if(qte==2)
+    cout<<"\n\no numero "<<n<<" e primo";
+    else
+     cout<<"\n\no numero "<<n<<" nao e primo";
+system("pause>null");      
+} 
