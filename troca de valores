@@ -1,0 +1,13 @@
+#include <math.h>
+#include <iostream.h>
+main()
+{int a,b,aux;
+ cout<<"Para trocar os valores das variaveis\n\n";
+ cout<<"Digite o valor de A e B\n\n";
+ cin>>a>>b;
+  aux=a;
+  a=b;
+  b=aux;
+ cout<<"\nB = "<<b<< " e A = "<<a;
+system("pause>null");
+}
