@@ -1,0 +1,10 @@
+#include <iostream.h>
+ main()
+{ int n,produto=1;
+  cout<<"Digite um Numero = ";
+  cin>>n;
+  while( produto<=n)
+     produto=produto*2;
+  cout<<"\n O produto de "<<n << " e = "<<produto;
+ system("pause>null");
+ }
