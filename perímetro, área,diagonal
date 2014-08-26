@@ -1,0 +1,15 @@
+#include <math.h>
+#include <iostream.h>
+main()
+{float l,vp,va,vd;
+ cout<<"Para calcular o perimetro a area e a diagonal\n ";
+ cout<<"\ndigite ovalor do lado\n\n";
+ cin>>l;
+  vp=l*4;
+ cout<<"\nVolar do perimetro = "<<vp;
+  va=l*l;
+ cout<<"\n\nValor da area = "<<va;
+  vd=l*sqrt(2);
+ cout<<"\n\nValor da diagonal = "<<vd;
+system("pause>null");
+}
