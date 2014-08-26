@@ -1,0 +1,9 @@
+#include<iostream.h>
+main()
+{int idade,dias;
+ cout<<"Digite a sua idade ";
+ cin>>idade;
+ dias=idade*365;
+ cout<<"\n Voce ja viveu aproximadamente "<<dias;
+system("pause>null");
+}
